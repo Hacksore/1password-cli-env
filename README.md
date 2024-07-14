@@ -13,6 +13,11 @@ op run --env-file .env -- pnpm start
 ```
 op run --env-file .env -- pnpm turbo start 
 ```
+### Expected 
+When using `turbo` it should read the secret with the [op secret reference](https://developer.1password.com/docs/cli/secret-references/) and source it into the env.
+
+### Actual
+When using `turbo` it is unable read the secret with the [op secret reference](https://developer.1password.com/docs/cli/secret-references/) and source it into the env.
 
 # Observation
 
