@@ -1,0 +1,21 @@
+{
+  "name": "1password-cli-env",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx/esm index.ts",
+    "with-turbo": "op run --env-file .env -- pnpm turbo start",
+    "without-turbo": "op run --env-file .env -- pnpm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.5.0",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.16.2",
+    "turbo": "^2.0.6"
+  }
+}
