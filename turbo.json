@@ -1,0 +1,12 @@
+
+{
+  "globalEnv": [
+    "R2_BUCKET"
+  ],
+  "tasks": {
+    "start": {
+      "persistent": true,
+      "cache": false
+    }
+  }
+}

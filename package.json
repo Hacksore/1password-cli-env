@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node --import tsx/esm index.ts",
-    "with-turbo": "op run --env-file .env -- pnpm turbo --env-mode loose start",
+    "with-turbo": "op run --env-file .env -- pnpm turbo start",
     "without-turbo": "op run --env-file .env -- pnpm start"
   },
   "keywords": [],

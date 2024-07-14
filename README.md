@@ -1,5 +1,11 @@
 # Turborepo and 1password CLI env bug
 
+## Solutions
+
+1. (preferred) update your `turbo.json` config and add the vars your app needs to `globalEnv`
+1. pass the `--env-mode loose` to `turbo` commands ([global loose mode RFC](https://github.com/vercel/turbo/discussions/8611))
+
+---
 Something is going wrong when trying to use `op` with the `turbo` CLI so I slapped this repro together to see what gives.
 
 ✅ Working to expand vars (`pnpm without-turbo`)
